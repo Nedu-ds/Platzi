@@ -68,7 +68,7 @@
    68  git status
    69  git rm --cached historia.txt 
    70  git status
-   71  ls
+   71  ls -la
    72  nano comandos_git.txt 
    73  git add historia.txt 
    74  git commit -m "Primer Archivo"
@@ -90,3 +90,4 @@
    90  git log historia.txt 
    91  git add historia.txt 
    92  history > historia.txt 
+   100 git show historia.txt

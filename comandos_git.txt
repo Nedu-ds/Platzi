@@ -1,0 +1,13 @@
+git init -> inicializa staging que se almacena en ram
+git add archivo -> permite que el archivo sea trackeado para revisar los cambios
+git rm archivo > para dejar de trackearlo
+gir rm --cached archivo -> se eliman completamente de staging
+git commit -m "mensaje" -> permite grabar los cambias trackeados que estan en ram al repositorio /.git/ que tendra el nombre master
+                    -> cada commit es una version diferente del archivo
+#Configuracion de Usuario para GIT para saber quien hizo el cambio
+git config --global user.name "nombre" -> configurar nombre
+git config --global user.email "malwbit@gmail.com" -> configurar correo
+git config --list -> lista de configuracion
+
+checkout -> trae los cambios al archivo
+
