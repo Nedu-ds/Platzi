@@ -1,0 +1,53 @@
+    1  sudo apt-get update
+    2  sudo apt-get upgrade
+    3  sudo apt-get install git
+    4  cd /
+    5  ls
+    6  ls -als
+    7  ls -al
+    8  virtualenv -p python3 Flask
+    9  ls
+   10  Flask
+   11  cd Flask
+   12  ls
+   13  cd bin/
+   14  ls
+   15  cd ..
+   16  ls
+   17  sourece /bin/activate
+   18  source /bin/activate
+   19  source bin/activate
+   20  pip install flask
+   21  cd ..
+   22  Git-Hub
+   23  deactivate
+   24  mkdir Git-Hub
+   25  mkdir proyecto1
+   26  dir
+   27  rm -r proyecto1
+   28  cd Git-Hub/
+   29  mkdir proyecto1
+   30  cd proyecto1/
+   31  touch vacio.txt
+   32  ls
+   33  ls -al
+   34  echo mensaje secreteo > vacio.txt 
+   35  cat vacio.txt 
+   36  history
+   37  echo mensaje secreteo > vacio.txt 
+   38  cat vacio.txt 
+   39  rm vacio.txt 
+   40  cd ..
+   41  sudo apt-get install tree
+   42  tree Git-Hub/
+   43  cd Git-Hub/
+   44  touch historia.txt
+   45  history -10 > historia.txt 
+   46  history > historia.txt 
+   47  cat historia.txt 
+   48  git init
+   49  rm historia.txt 
+   50  git close
+   51  git
+   52  cd proyecto1/
+   53  history > historia.txt
