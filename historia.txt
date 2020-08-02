@@ -51,3 +51,42 @@
    51  git
    52  cd proyecto1/
    53  history > historia.txt
+   54  git init
+   55  vim comandos_git.txt
+   56  nano comandos_git.txt
+   57  pwd
+   58  ls -al
+   59  code
+   60  sudo apt-get install vscode
+   61* 
+   62  code
+   63  ls
+   64  git status
+   65  git add historia.txt 
+   66  git status
+   67  git rm historia.txt 
+   68  git status
+   69  git rm --cached historia.txt 
+   70  git status
+   71  ls
+   72  nano comandos_git.txt 
+   73  git add historia.txt 
+   74  git commit -m "Primer Archivo"
+   75  git status
+   76  git historia.txt 
+   77  git --help
+   78  git log historia.txt 
+   79  git config
+   80  git config --list --show-origin
+   81  git config --global user.name"Nestor Duque"
+   82  git config --global user.name "Nestor Duque"
+   83  git config --global user.email "malwbit@gmail.com"
+   84  git config --list
+   85  git status
+   86  git add historia.txt 
+   87  git status
+   88  ls
+   89  git log status
+   90  git log historia.txt 
+   91  git add historia.txt 
+   92  history > historia.txt 
