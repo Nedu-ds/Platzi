@@ -8,6 +8,10 @@ git commit -m "mensaje" -> permite grabar los cambias trackeados que estan en ra
 git config --global user.name "nombre" -> configurar nombre
 git config --global user.email "malwbit@gmail.com" -> configurar correo
 git config --list -> lista de configuracion
-
+git diff tag "primer archivo" tag "segundo archivo" -> ve las diferencias entre archivos
+git reset tag --hard  -> regresa a esa version de archivos y borra lo que habia posterior a esta  
+git reset tag --soft  -> mantiene en staging los cambios
+git checkout-> tra el archivo de esa version pero sin grabarlo como el principal
+git 
 checkout -> trae los cambios al archivo
 
