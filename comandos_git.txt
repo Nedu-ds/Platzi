@@ -11,7 +11,7 @@ git config --list -> lista de configuracion
 git diff tag "primer archivo" tag "segundo archivo" -> ve las diferencias entre archivos
 git reset tag --hard  -> regresa a esa version de archivos y borra lo que habia posterior a esta  
 git reset tag --soft  -> mantiene en staging los cambios
-git checkout-> tra el archivo de esa version pero sin grabarlo como el principal
-git 
+git checkout  tag archivo -> tra el archivo de esa version pero sin grabarlo como el principal
+git checkout master archivo -> el ultimo archivo grabado
 checkout -> trae los cambios al archivo
 
