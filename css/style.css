@@ -1,14 +1,19 @@
 body {
     text-align: center;
     color: rgb(28, 7, 87);
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.col {
+.conteiner {
     background-color: rgb(136, 136, 187);
     align-content: center;
     margin-left: 40%;
     max-width: 400px;
     border-radius: 2rem;
     
+}
+#cabecera {
+    background-color: black;
+    color: white;
+    border-radius: 2rem;
 }
