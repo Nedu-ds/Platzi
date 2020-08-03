@@ -1,5 +1,14 @@
 body {
     text-align: center;
-    color: dodgerblue;
+    color: rgb(28, 7, 87);
     font-family: Arial;
+}
+
+.col {
+    background-color: rgb(136, 136, 187);
+    align-content: center;
+    margin-left: 40%;
+    max-width: 400px;
+    border-radius: 2rem;
+    
 }

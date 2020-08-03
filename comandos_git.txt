@@ -1,7 +1,7 @@
 git init -> inicializa staging que se almacena en ram
 git add archivo -> permite que el archivo sea trackeado para revisar los cambios
 git rm archivo > para dejar de trackearlo
-gir rm --cached archivo -> se eliman completamente de staging
+git rm --cached archivo -> se eliman completamente de staging
 git commit -m "mensaje" -> permite grabar los cambias trackeados que estan en ram al repositorio /.git/ que tendra el nombre master
                     -> cada commit es una version diferente del archivo
 #Configuracion de Usuario para GIT para saber quien hizo el cambio
@@ -19,4 +19,14 @@ git rm --force: Elimina los archivos de Git y del disco duro. Git siempre guarda
 git reset --soft: Borramos todo el historial y los registros de Git pero guardamos los cambios que tengamos en Staging, así podemos aplicar las últimas actualizaciones a un nuevo commit.
 git reset --hard: Borra todo. Todo todito, absolutamente todo. Toda la información de los commits y del área de staging se borra del historial.
 git reset HEAD: Este es el comando para sacar archivos del área de Staging. No para borrarlos ni nada de eso, solo para que los últimos cambios de estos archivos no se envíen al último commit, a menos que cambiemos de opinión y los incluyamos de nuevo en staging con git add, por supuesto.
+
+git clone url -> copiar el repositorio de una url remota trae el contenido asi como tambien la carpeta master
+git push -> para enviar los cambios  de mi respositorio local al repositorio remoto
+
+git fetch -> traer una actualizacion mas reciente pero no lo copia en mi repositorio ---|
+                                                                                        ====> git pull 
+git merge -> una la version mas reciente con mi version en mi repositorio            ---|   
+
+git pull-> me trae la ultima version del repositorio remoto y la actualiza con mi repositorio local
+
 
