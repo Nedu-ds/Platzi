@@ -91,3 +91,65 @@
    91  git add historia.txt 
    92  history > historia.txt 
    100 git show historia.txt
+    1  su
+    2  sudo passwd
+    3  su
+    4  code
+    5  cd 
+    6  ls
+    7  pwd
+    8  cd /mnt/d/Platzi/Git-Hub/proyecto1/
+    9  ls
+   10  nano comandos_git.txt 
+   11  d/
+   12  cd d/
+   13  cd /mnt/d
+   14  ls
+   15  cd EEQ
+   16  ls
+   17  cd ..
+   18  cd Documentos/
+   19  ls
+   20  cd Web\ FLask/
+   21  ls
+   22  sudo apt-get install virtualenv
+   23  ls
+   24  mkdir Platzi
+   25  mkdir Flask
+   26  ls
+   27  rmd Flask
+   28  rm Flask
+   29  rm -r Flask
+   30  ls
+   31  cd Platzi/
+   32  cd ..
+   33  ls
+   34  rm -r Platzi
+   35  cd..
+   36  cd ..
+   37  mkdir Platzi
+   38  cd Platzi
+   39  virtualenv -p python3 Flask
+   40  su root
+   41  cd /
+   42  ls
+   43  df -h
+   44  cd /mnt/d/
+   45  ls -l
+   46  ;s
+   47  cd Pla
+   48  cd Platzi/
+   49  ls
+   50  cd Git-Hub/
+   51  ls
+   52  cd proyecto1/
+   53  ls 
+   54  cd ..
+   55  more comandos_git.txt 
+   56  grep status comandos_git.txt 
+   57  cd proyecto1/
+   58  grep status historia.txt 
+   59  git log status
+   60  git status
+   61  ls
+   62  history >> historia.txt 
