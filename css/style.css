@@ -4,18 +4,25 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.conteiner {
+#post {
     background-color: rgb(136, 136, 187);
     align-content: center;
-    margin-left: 40%;
-    max-width: 400px;
-    border-radius: 2rem;
-    padding-top: 2em;
-    position: absolute;
+    
     
 }
 #cabecera {
     background-color: black;
     color: white;
     border-radius: 2rem;
+   
+}
+
+.conteiner {
+    background-color: rgb(166, 166, 187);
+    align-content: center;
+    margin-left: 40%;
+    max-width: 400px;
+    border-radius: 2rem;
+    position: relative;
+    
 }
