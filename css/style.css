@@ -7,22 +7,34 @@ body {
 #post {
     background-color: rgb(136, 136, 187);
     align-content: center;
+    padding-bottom: 2em;
     
     
 }
 #cabecera {
+    padding-top: 0.1em;
     background-color: black;
     color: white;
-    border-radius: 2rem;
+    border-top-right-radius: 2em;
+    border-top-left-radius: 2em;
+    padding-bottom: 1em;
+    
    
 }
 
 .conteiner {
+    
     background-color: rgb(166, 166, 187);
     align-content: center;
-    margin-left: 40%;
-    max-width: 400px;
+    margin-left: 35%;
+    max-width: 450px;
     border-radius: 2rem;
-    position: relative;
+    position: absolute;
     
+}
+.footer{
+    background-color: rgb(105, 39, 94);
+    color: wheat;
+    border-bottom-right-radius: 0.75em;
+    border-bottom-left-radius: 0.75em;
 }
