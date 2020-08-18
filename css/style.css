@@ -19,3 +19,8 @@ body {
     color: white;
     border-radius: 2rem;
 }
+.footer{
+    background-color: rgb(105, 39, 94);
+    color: wheat;
+    border-end-end-radius: 0.75em;
+    border-bottom-left-radius: 0.75em;
